@@ -2,27 +2,26 @@
   "name": "@huyhq_syn/lazyload-observer",
   "version": "1.0.0",
   "description": "A custom lazy loading library using IntersectionObserver",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "main": "src/index.js",
   "scripts": {
-    "build": "echo \"Build process not configured yet.\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d dist",
+    "watch": "babel src -d dist --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huyhq-syn/my-lazyload-observer.git"
+    "url": "git+https://github.com/huysynf/lazyload-observer.git"
   },
   "keywords": [
     "lazyload",
     "image",
     "javascript",
     "package",
-    "IntersectionObserver"```
+    "IntersectionObserver"
   ],
   "author": "Huy HQ",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/huyhq-syn/my-lazyload-observer/issues"
+    "url": "https://github.com/huysynf/lazyload-observer/issues"
   },
-  "homepage": "https://github.com/huyhq-syn/my-lazyload-observer#readme"
+  "homepage": "https://github.com/huysynf/lazyload-observer#readme"
 }
